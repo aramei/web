@@ -12,7 +12,7 @@ bind = '0.0.0.0:8080'  # this is where you declare on which address your
 
 #errorlog = '/var/log/gunicorn/error-mysite.log'    # error log
 
-a#ccesslog = '/var/log/gunicorn/access-mysite.log'  # access log
+#accesslog = '/var/log/gunicorn/access-mysite.log'  # access log
 
 proc_name = 'gunicorn-web'            # the gunicorn process name
 
